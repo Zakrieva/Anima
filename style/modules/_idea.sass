@@ -1,0 +1,144 @@
+.idea
+    margin: 0 auto
+    max-width: 1245px
+    @media (max-width: 1380px)
+        padding-right: 50px
+        padding-left: 50px 
+        
+    @media (max-width: 1290px)
+        padding-left: 80px
+    @media (max-width: 1110px)
+        padding-left: 0px
+    
+   
+    @media (max-width: 940px)
+        margin: 0px 
+        padding: 0px
+    
+    &__photo
+        display: flex
+        @media (max-width: 1110px)
+            flex-direction: column
+       
+    .headerline
+        @media (max-width: 940px)
+            padding-left: 24px    
+    .line
+        margin-top: 60px
+        margin-bottom: 10px 
+        background-color:#28553F
+        height: 1px
+        max-width: 102px
+        @media (max-width: 1110px)
+            margin-left: 60px 
+        @media (max-width: 940px)
+            margin-left: 0px
+    h2
+        @media (max-width: 1110px)
+            margin: 10px 60px 
+        
+        @media (max-width: 940px)
+            margin: 10px 0px     
+    
+    &__left
+        margin-right: 21px
+        @media (max-width: 1420px)
+            height: 665px
+        @media (max-width: 1200px)
+            height: 560px
+        @media (max-width: 1110px) 
+            display: none  
+            
+                 
+    
+    &__right_one
+        display: flex
+        @media (max-width: 1110px)
+            margin: 0px 60px
+       
+        @media (max-width: 940px)
+            margin: 0px
+            flex-direction: column 
+        
+    
+    &__right_two
+        display: flex
+        margin-top: 18px
+        @media (max-width: 1110px)
+            margin: 0px 60px
+        
+        @media (max-width: 940px)
+            margin: 0 
+            flex-direction: column
+
+    .img_one
+        margin-right: 20px
+        @media (max-width: 1420px)
+            width: 300px
+        @media (max-width: 1200px)
+            width: 250px
+            margin-right: 10px
+        @media (max-width: 1110px)
+            width: 410px
+        @media (max-width: 940px)
+            object-fit: cover
+            width: 100%  
+            margin: 0px 
+
+    .img_two
+        margin-right: 20px
+        @media (max-width: 1420px)
+            width: 300px
+            margin-right: 10px
+        @media (max-width: 1200px)
+            width: 250px 
+        @media (max-width: 1110px)
+            width: 410px
+        @media (max-width: 940px)
+            object-fit: cover
+            width: 100%  
+            margin: 0px  
+    &__footer
+        margin: 10px
+        height:  100px
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+        @media (max-width: 1420px)
+            max-width: 1070px
+        @media (max-width: 1200px)
+            max-width: 900px
+        @media (max-width: 1110px)
+            max-width: 700px
+        @media (max-width: 940px)
+            align-items: center
+            max-width: 360px
+        
+        &__button
+            margin-top: 66px
+            background: #28553F
+            width: 405px
+            height: 52px
+            display: flex
+            align-items: center
+            justify-content: center
+            transition: .3s
+            @media (max-width: 940px)
+                width: 360px
+                height: 50px 
+            
+            &:hover
+                background: #133b27
+        
+            &_text
+                font-size: 1rem
+                font-weight: 400
+                line-height: 26px
+                text-align: center
+            
+                a
+                    @include a_none
+        
+    
+
+

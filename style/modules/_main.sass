@@ -1,0 +1,93 @@
+@font-face 
+    font-family: 'Raleway'
+    src: url(../fonts/Raleway-VariableFont_wght.ttf)
+    font-weight: 400
+    font-style: normal
+
+
+@mixin a_none
+    text-decoration: none
+    color: #ffffff
+
+@mixin text_big
+    font-family: 'Raleway'
+    text-transform: uppercase
+
+*
+    box-sizing: border-box
+
+a 
+    text-decoration: none
+    color: inherit
+
+body
+    font-family: 'Raleway'
+    background: #dfdfdf
+
+body, h2, h1
+    padding: 0
+    margin: 0
+
+h1, h2, h3
+    font-weight: 400
+
+html
+    font-size: 16px
+    scroll-behavior: smooth
+    @media (max-width: 1420px)
+        font-size: 15px
+    //@media (max-width: 1280px)
+    @media (max-width: 1110px)
+        font-size: 14px 
+   
+    // @media (max-width: 810px)
+    //    font-size: 13px 
+    // 
+    // @media (max-width: 690px)
+    //    font-size: 13px 
+    @media (max-width: 620px)
+        font-size: 12px 
+    // @media (max-width: 540px)
+    // @media (max-width: 420px)
+    //         font-size: 35px 
+    @media (max-width: 370px)
+        font-size: 11px 
+    
+
+.wrap
+    margin: 0 auto
+    max-width: 1400px 
+
+.line
+    margin-top: 60px
+    margin-bottom: 10px 
+    background-color:#28553F
+    height: 1px
+    max-width: 102px
+    @media (max-width: 620px)
+        margin-left: 0px
+        
+    
+.headerline
+    @media ( max-width: 870px)
+        max-width: 470px
+    
+          
+    h2
+        margin: 10px 0px 50px
+        font-size: 2.75rem
+        line-height: 47px
+        font-weight: 400
+        text-transform: uppercase
+        @media (max-width: 870px)
+            margin: 0 auto
+            width: 470px
+            margin-bottom: 20px
+        @media (max-width: 620px)
+            width: 100%
+            padding: 0px
+        
+    span
+        color:#28553F
+    
+

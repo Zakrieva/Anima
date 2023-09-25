@@ -1,0 +1,185 @@
+.header
+    background: url(../image/header.png) rgb(255, 255, 255) no-repeat center/cover
+    height: 821px
+    color: rgb(255, 255, 255)
+    
+    &__gradient
+        height: 100% 
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 40.86%, rgba(0, 0, 0, 0.7998) 100%)
+       
+        @media (max-width: 620px)
+            padding: 24px
+    .wrap
+        margin: 0 auto
+        max-width: 1400px 
+        display: flex
+        position: relative
+        @media (max-width: 620px)
+            padding: 0px
+        &__img
+            position: absolute
+            top: 35px
+            right: 40px
+            @media (max-width: 1110px)
+                display: none 
+            &_height
+                margin-top: -28px
+                object-fit: cover
+                height: 603px
+                width: 873px 
+         
+    .wraper
+        margin-top: 150px   
+        max-width: 743px
+        height: 361px
+        background: #000
+        position: relative
+        z-index: 999
+        @media (max-width: 1420px)
+            height: 328px
+        @media (max-width: 1110px)
+            margin: 150px auto
+            height: 308px
+            max-width: 703px  
+        
+        @media (max-width: 620px)
+            margin-top: 120px
+            background: none
+            max-width: 100% 
+            
+        
+        &__window
+            padding-left: 70px 
+            padding-top: 60px
+            text-transform: uppercase
+            @media (max-width: 620px)
+                padding: 0px 
+            &_text
+                font-size: 0.875rem
+                color: #9C9C9C
+                display: flex
+                align-items: center
+                &line
+                    margin-left: 15px 
+                    background: #9C9C9C
+                    height: 0.4px
+                    width: 82px
+            &_title
+                width: 580px
+                @media (max-width: 1110px)
+                    width: 530px
+                @media (max-width: 620px)
+                    width: 98% 
+                h1
+                    font-size: 3.125rem 
+                span
+                    color:#28553F
+                
+            &_btns
+                border: none
+                width: 288px
+                height: 68px
+                margin-top: 20px 
+                margin-right: 20px
+                text-transform: uppercase
+                font-family: 'Raleway'
+                font-size: 1rem
+                color: #fff
+                @media (max-width: 1420px)
+                    width: 250px
+                    height: 58px
+                @media (max-width: 1110px)
+                    width: 230px
+                    height: 50px
+                @media (max-width: 620px)
+                    width: 100%
+            .window_btnBuy
+                background: #28553F
+            .window_btnContact
+                background: #141414    
+            
+    .nav 
+        display: flex
+        align-items: flex-end
+        max-width: 1245px
+        margin: 0 auto
+        @media (max-width: 1110px)
+            flex-direction: column
+            align-items: center
+        @media (max-width: 690px)
+            flex-direction: row
+            align-items: flex-end
+            justify-content: space-between
+            padding: 30px
+        @media (max-width: 620px)
+            padding: 0px
+            align-items: start
+            
+        .hamburger
+            display: none
+            margin-bottom: 5px
+            @media (max-width: 690px)
+                cursor: pointer
+                display: block
+            @media (max-width: 620px)
+                margin-top: 15px
+            &__line
+                background: #fff
+                height: 2px
+                width: 55px
+                margin-bottom: 15px
+                @media (max-width: 620px)
+                    width: 37px
+                    margin-bottom: 8px
+        
+    .logo
+        width: 289px
+        padding-top: 32px
+        @media (max-width: 1420px)
+            width: 250px
+        // @media (max-width: 1110px)
+        //     width: 230px
+        @media (max-width: 690px)
+            margin-bottom: -3px
+        @media (max-width: 620px)
+            width: 200px
+            padding: 0px
+        @media (max-width: 420px)
+            margin-bottom: -3px
+            width: 160px
+
+  
+
+      
+            
+        
+    
+.menu
+    margin-bottom: 20px
+    margin-left: 20px
+    height: 48px
+    max-width: 1058px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background: #000000
+    padding: 0px 19px
+    @media (max-width: 870px)
+        padding: 0px
+    @media (max-width: 690px)
+        display: none
+        flex-direction: row
+    &__item
+        @include text_big
+        font-size: 1rem
+        transition: .3s
+        padding: 13px 32px
+        border-bottom: 1px solid #ffffff00
+        &:hover  
+            border-bottom: 1px solid
+        @media (max-width: 1420px)
+            padding: 8px 28px
+          
+    a
+        @include a_none
+    
